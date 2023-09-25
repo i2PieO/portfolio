@@ -1,8 +1,33 @@
-import React from 'react'
-import SectionTitle from './SectionTitle'
-import DaloIntl from './works/DaloIntl'
+import { useState } from "react";
+import SectionTitle from "./SectionTitle";
+import Google from "./works/Google";
+import DaloIntl from "./works/DaloIntl";
+import Microsoft from "./works/Microsoft";
 
 const Experience = () => {
+  const [workDaloIntl, setWorkDaloIntl] = useState(true);
+  const [workGoogle, setWorkGoogle] = useState(false);
+  const [workMicrosft, setWorkMicrosoft] = useState(false);
+
+  const handleDaloIntl = () => {
+    setWorkDaloIntl(true);
+    setWorkGoogle(false);
+    setWorkMicrosoft(false);
+  };
+
+  const handleGoogle = () => {
+    setWorkDaloIntl(false);
+    setWorkGoogle(true);
+    setWorkMicrosoft(false);
+
+  };
+
+  const handleMicrosoft = () => {
+    setWorkDaloIntl(false);
+    setWorkGoogle(false);
+    setWorkMicrosoft(true);
+  };
+ 
   return (
     <section
       id="experience"
@@ -11,23 +36,43 @@ const Experience = () => {
       <SectionTitle title="Where I have Worked" titleNo="02" />
       <div className="w-full mt-10 flex flex-col md:flex-row gap-16">
         <ul className="md:w-32 flex flex-col">
-          <li className="border-l-2 border-l-textGreen text-textDark bg-transparent hover:bg-[#112240] py-3 text-sm
-          cursor-pointer duration-300 px-8 font-medium">
-          DaloIntl
+          <li
+            onClick={handleDaloIntl}
+            className={`${
+              workDaloIntl
+                ? "border-l-textGreen text-textGreen"
+                : "border-l-hoverColor text-textDark"
+            } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
+          >
+            DaloIntl
           </li>
-          <li className="border-l-2 border-l-hoverColor text-textDark bg-transparent hover:bg-[#112240] py-3 text-sm
-          cursor-pointer duration-300 px-8 font-medium">
-          Google
+          <li
+            onClick={handleGoogle}
+            className={`${
+              workGoogle
+                ? "border-l-textGreen text-textGreen"
+                : "border-l-hoverColor text-textDark"
+            } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
+          >
+            Google
           </li>
-          <li className="border-l-2 border-l-hoverColor text-textDark bg-transparent hover:bg-[#112240] py-3 text-sm
-          cursor-pointer duration-300 px-8 font-medium">
-          Microsoft
+          <li
+            onClick={handleMicrosoft}
+            className={`${
+              workMicrosft
+                ? "border-l-textGreen text-textGreen"
+                : "border-l-hoverColor text-textDark"
+            } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
+          >
+            Microsoft
           </li>
         </ul>
-        <DaloIntl />
+        {workDaloIntl && <DaloIntl />}
+        {workGoogle && <Google />}
+        {workMicrosft && <Microsoft />}
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Experience
+export default Experience;

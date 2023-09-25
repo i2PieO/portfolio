@@ -1,7 +1,7 @@
 import {motion} from "framer-motion"
 import { TiArrowForward } from "react-icons/ti";
 
-const DaloIntl = () => {
+const Google = () => {
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -10,7 +10,7 @@ const DaloIntl = () => {
       className="w-full"
       >
        <h3 className="flex gap-1 font-medium text-xl font-titleFont">
-        Software Developer <span className="text-textGreen tracking-wide">@DaloIntl</span>
+        Software Developer <span className="text-textGreen tracking-wide">@Google</span>
         </h3>
        <p className="text-sm mt-1 font-medium text-textDark">
         April 2020 - Present
@@ -42,4 +42,4 @@ const DaloIntl = () => {
   )
 }
 
-export default DaloIntl
+export default Google
