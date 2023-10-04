@@ -1,13 +1,13 @@
 import { useState } from "react";
 import SectionTitle from "./SectionTitle";
+import Microsoft from "./works/Microsoft";
 import Google from "./works/Google";
 import DaloIntl from "./works/DaloIntl";
-import Microsoft from "./works/Microsoft";
 
 const Experience = () => {
   const [workDaloIntl, setWorkDaloIntl] = useState(true);
   const [workGoogle, setWorkGoogle] = useState(false);
-  const [workMicrosft, setWorkMicrosoft] = useState(false);
+  const [workMicrosoft, setWorkMicrosoft] = useState(false);
 
   const handleDaloIntl = () => {
     setWorkDaloIntl(true);
@@ -19,7 +19,6 @@ const Experience = () => {
     setWorkDaloIntl(false);
     setWorkGoogle(true);
     setWorkMicrosoft(false);
-
   };
 
   const handleMicrosoft = () => {
@@ -27,7 +26,7 @@ const Experience = () => {
     setWorkGoogle(false);
     setWorkMicrosoft(true);
   };
- 
+
   return (
     <section
       id="experience"
@@ -59,7 +58,7 @@ const Experience = () => {
           <li
             onClick={handleMicrosoft}
             className={`${
-              workMicrosft
+              workMicrosoft
                 ? "border-l-textGreen text-textGreen"
                 : "border-l-hoverColor text-textDark"
             } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
@@ -69,7 +68,7 @@ const Experience = () => {
         </ul>
         {workDaloIntl && <DaloIntl />}
         {workGoogle && <Google />}
-        {workMicrosft && <Microsoft />}
+        {workMicrosoft && <Microsoft />}
       </div>
     </section>
   );
