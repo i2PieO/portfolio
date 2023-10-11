@@ -26,8 +26,8 @@ module.exports = {
       colors: {
         bodyColor: "#000000",
         textGreen: "#d5152c",
-        textLight: "#fffbff",
-        textDark:  "#fffbff",
+        textLight: "#C9920E",
+        textDark:  "#FADF8D",
         hoverColor: "rgba(230, 51, 41)",
       },
       fontFamily: {
