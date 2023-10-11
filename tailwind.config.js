@@ -35,7 +35,7 @@ module.exports = {
         titleFont: ["Inter", "sans-serif"],
       },
       boxShadow: {
-        navbarShadow: " 0 10px 30px -10px rgba(230, 51, 41)",
+        navbarShadow: " 0 10px 30px -10px rgba(229, 181, 130)",
       },
     },
   },
