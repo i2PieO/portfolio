@@ -24,10 +24,10 @@ module.exports = {
         xl: "1280px",
       },
       colors: {
-        bodyColor: "#252829",
+        bodyColor: "#000000",
         textGreen: "#d5152c",
-        textLight: "#C9920E",
-        textDark:  "#FADF8D",
+        textLight: "#fffbff",
+        textDark:  "#fffbff",
         hoverColor: "rgba(230, 51, 41)",
       },
       fontFamily: {
@@ -35,7 +35,7 @@ module.exports = {
         titleFont: ["Inter", "sans-serif"],
       },
       boxShadow: {
-        navbarShadow: " 0 10px 30px -10px rgba(230, 51, 41)",
+        navbarShadow: " 0 10px 30px -10px rgba(229, 181, 130)",
       },
     },
   },
