@@ -41,7 +41,7 @@ const Experience = () => {
               workDaloIntl
                 ? "border-l-textGreen text-textGreen"
                 : "border-l-hoverColor text-textDark"
-            } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
+            } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-extraFont`}
           >
             DaloIntl
           </li>
@@ -51,7 +51,7 @@ const Experience = () => {
               workGoogle
                 ? "border-l-textGreen text-textGreen"
                 : "border-l-hoverColor text-textDark"
-            } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
+            } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-extraFont`}
           >
             Google
           </li>
@@ -61,7 +61,7 @@ const Experience = () => {
               workMicrosoft
                 ? "border-l-textGreen text-textGreen"
                 : "border-l-hoverColor text-textDark"
-            } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
+            } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-extraFont`}
           >
             Microsoft
           </li>

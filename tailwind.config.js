@@ -33,6 +33,7 @@ module.exports = {
       fontFamily: {
         bodyFont: ["Calibre", "Inter", "San Francisco", "SF Pro Text", "-apple-system", "system-ui", "sans-serif"],
         titleFont: ["Calibre", "Inter", "San Francisco", "SF Pro Text", "-apple-system", "system-ui", "sans-serif"],
+        extraFont: ["SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "monospace"]
       },
       boxShadow: {
         navbarShadow: " 0 10px 30px -10px rgba(229, 181, 130)",
