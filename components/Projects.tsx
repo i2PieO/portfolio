@@ -27,7 +27,7 @@ const Projects = () => {
           </a>
           <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right xl:-ml-16 z-10">
             <div>
-              <p className="font-titleFont text-textGreen text-sm tracking-wide">
+              <p className="font-extraFont text-textGreen text-sm tracking-wide">
                 Featured Project
               </p>
               <h3 className="text-2xl font-bold">Spinning Cube</h3>
@@ -37,7 +37,7 @@ const Projects = () => {
               {" "}
               <span className="text-textGreen">spinning cube.</span>
             </p>
-            <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
+            <ul className="text-xs md:text-sm font-extraFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
               <li>C</li>
               <li>ASCII characters</li>
               <li>Matrix</li>
@@ -79,7 +79,7 @@ const Projects = () => {
           </a>
           <div className="w-full xl:w-1/2 flex flex-col gap-6 justify-between items-end text-right z-10">
             <div>
-              <p className="font-titleFont text-textGreen text-sm tracking-wide">
+              <p className="font-extraFont text-textGreen text-sm tracking-wide">
                 Featured Project
               </p>
               <h3 className="text-2xl font-bold">Cyber Security Blog</h3>
@@ -92,7 +92,7 @@ const Projects = () => {
               <span className="text-textGreen">post</span> on it by logging on
               the portal.
             </p>
-            <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
+            <ul className="text-xs md:text-sm font-extraFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
               <li>Nextjs</li>
               <li>Typescript</li>
               <li>Next-auth</li>
@@ -136,7 +136,7 @@ const Projects = () => {
           </a>
           <div className="w-full xl:w-1/2 flex flex-col gap-6 justify-between items-end text-right xl:-ml-16 z-10">
             <div>
-              <p className="font-titleFont text-textGreen text-sm tracking-wide">
+              <p className="font-extraFont text-textGreen text-sm tracking-wide">
                 Featured Project
               </p>
               <h3 className="text-2xl font-bold">Amazon Clone 2.0</h3>
@@ -147,7 +147,7 @@ const Projects = () => {
               <span className="text-textGreen">O-auth</span> and then make the
               purchage using <span className="text-textGreen">stripe</span>.
             </p>
-            <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
+            <ul className="text-xs md:text-sm font-extraFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
               <li>Nextjs</li>
               <li>Typescript</li>
               <li>Next-auth</li>
