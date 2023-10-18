@@ -18,45 +18,45 @@ const Archive = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-10 lgl:px-10">
         <ArchiveCard
           title="Tic Tac Toe"
-          des="Built a Tic Tac Toe game which can be played in the browser. The player can play against a computer and has two
+          des=" Built a Tic Tac Toe game which can be played in the browser. The player can play against a computer and has two
           options on the difficulty of the computer Easy AI (easy) mode and Hard AI (hard) mode."
           listItem={["HTML", "Neon CSS", "Javascript"]}
           link="https://i2pieo.github.io/tictactoe/"
         />
         <ArchiveCard
-          title="Cyber Security Blog with live comments section"
-          des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-            laudantium velit qui sint non, voluptates quo a veritatis."
-          listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
-          link=""
+          title="Calculator"
+          des=" This is a basic calculator.
+          It allows to make basic calculations. for instance, addition, multiplication, etc."
+          listItem={["HTML", "Tailwind CSS", "JavaScript"]}
+          link="https://i2pieo.github.io/Calculator/"
         />
         <ArchiveCard
-          title="ReactBD web development company"
-          des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-            laudantium velit qui sint non, voluptates quo a veritatis."
-          listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
-          link=""
+          title="Sign Up Form"
+          des=" User inteface that showcase a web sign up form. 
+          With frontend input validation and masking."
+          listItem={["HTML", "CSS", "JavaScript"]}
+          link="https://i2pieo.github.io/Sign-up-Form/"
         />
         <ArchiveCard
-          title="Amazon Clone with login, cart-option and payment intrigation."
-          des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-            laudantium velit qui sint non, voluptates quo a veritatis."
-          listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
-          link=""
+          title="Admin-Page"
+          des=" An admin dashboard design project to showcase my knowlegde of what I've learned about Grid.
+          of what I've learned about Grid."
+          listItem={["HTML", "CSS"]}
+          link="https://i2pieo.github.io/Admin-Page/"
         />
         <ArchiveCard
-          title="JSON data (example data api for test projects)"
-          des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-              laudantium velit qui sint non, voluptates quo a veritatis."
-          listItem={["Nextjs", "Tailwind CSS", "next-router"]}
-          link=""
+          title="Library"
+          des=" Similar to Admin- Page just added library page
+            "
+          listItem={["HTML", "CSS", "Javascript"]}
+          link="https://i2pieo.github.io/library/"
         />
         <ArchiveCard
-          title="Dynamic Responsive Portfolio"
+          title="etchASketch"
           des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
             laudantium velit qui sint non, voluptates quo a veritatis."
-          listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
-          link=""
+          listItem={["HTML", "CSS", "Javascript"]}
+          link="i2pieo.github.io/etchASketch/"
         />
 
         {showMore && (
