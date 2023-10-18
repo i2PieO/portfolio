@@ -17,11 +17,11 @@ const Archive = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-10 lgl:px-10">
         <ArchiveCard
-          title="Educare Engligh Learning Academy"
-          des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-            laudantium velit qui sint non, voluptates quo a veritatis."
-          listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
-          link=""
+          title="Tic Tac Toe"
+          des="Built a Tic Tac Toe game which can be played in the browser. The player can play against a computer and has two
+          options on the difficulty of the computer Easy AI (easy) mode and Hard AI (hard) mode."
+          listItem={["HTML", "Neon CSS", "Javascript"]}
+          link="https://i2pieo.github.io/tictactoe/"
         />
         <ArchiveCard
           title="Cyber Security Blog with live comments section"
