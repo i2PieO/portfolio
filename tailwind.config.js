@@ -31,8 +31,8 @@ module.exports = {
         hoverColor: "rgba(230, 51, 41)",
       },
       fontFamily: {
-        bodyFont: ["Calibre", "Inter", "San Francisco", "SF Pro Text", "-apple-system", "system-ui", "sans-serif"],
-        titleFont: ["Calibre", "Inter", "San Francisco", "SF Pro Text", "-apple-system", "system-ui", "sans-serif"],
+        bodyFont: ["Calibre", "Inter","Inter var","San Francisco", "SF Pro Text", "-apple-system", "system-ui", "sans-serif"],
+        titleFont: ["Calibre", "Inter", "Inter var","San Francisco", "SF Pro Text", "-apple-system", "system-ui", "sans-serif"],
         extraFont: ["SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "monospace"],
       },
       boxShadow: {
