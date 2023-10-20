@@ -36,7 +36,7 @@ module.exports = {
         extraFont: ["SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "monospace"],
       },
       boxShadow: {
-        navbarShadow: " 0 10px 30px -10px rgba(229, 181, 130)",
+        navbarShadow: " 0 10px 30px -10px rgb(236, 28, 36)",
       },
     },
   },
