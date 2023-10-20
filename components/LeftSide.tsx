@@ -27,7 +27,7 @@ const LeftSide = () => {
           </span>
         </a>
       </div>
-      <div className="w-[0.1px] h-32 bg-textDark"></div>
+      <div className="w-[0.1px] h-32 bg-hoverColor"></div>
     </div>
   );
 };

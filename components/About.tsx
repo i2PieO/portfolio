@@ -39,49 +39,49 @@ const About = () => {
           <p>Here are a few technologies I have been working with recently:</p>
           <ul className="max-w-[450px] text-sm font-extraFont grid grid-cols-2 gap-2 mt-6">
             <li className="flex items-center gap-2">
-              <span className="text-textGreen">
+              <span className="text-hoverColor">
                 <AiFillThunderbolt />
               </span>
               JavaScript (ES6+)
             </li>
             <li className="flex items-center gap-2">
-              <span className="text-textGreen">
+              <span className="text-hoverColor">
                 <AiFillThunderbolt />
               </span>
               Next.js
             </li>
             <li className="flex items-center gap-2">
-              <span className="text-textGreen">
+              <span className="text-hoverColor">
                 <AiFillThunderbolt />
               </span>
               React
             </li>
             <li className="flex items-center gap-2">
-              <span className="text-textGreen">
+              <span className="text-hoverColor">
                 <AiFillThunderbolt />
               </span>
               Node.js
             </li>
             <li className="flex items-center gap-2">
-              <span className="text-textGreen">
+              <span className="text-hoverColor">
                 <AiFillThunderbolt />
               </span>
               TypeScript
             </li>
             <li className="flex items-center gap-2">
-              <span className="text-textGreen">
+              <span className="text-hoverColor">
                 <AiFillThunderbolt />
               </span>
               Express.js
             </li>
             <li className="flex items-center gap-2">
-              <span className="text-textGreen">
+              <span className="text-hoverColor">
                 <AiFillThunderbolt />
               </span>
               MongoDB
             </li>
             <li className="flex items-center gap-2">
-              <span className="text-textGreen">
+              <span className="text-hoverColor">
                 <AiFillThunderbolt />
               </span>
               Tailwindcss
