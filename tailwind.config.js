@@ -24,7 +24,7 @@ module.exports = {
         xl: "1280px",
       },
       colors: {
-        bodyColor: "#000000",
+        bodyColor: "#2B2A29",
         textGreen: "#e6f1ff",
         textLight: "#C9920E",
         textDark:  "#FADF8D",
