@@ -20,7 +20,7 @@ const Design = () => {
     []
   );
   return (
-    <div className="w-full h-full bg-Banner.tsx relative">
+    <div className="w-full h-full relative">
       <Particles
         className="w-full h-full"
         id="tsparticles"
