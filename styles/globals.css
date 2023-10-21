@@ -8,9 +8,24 @@
   }
 }
 
-.scrollbarHide::-webkit-scrollbar {
-  display: none;
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
 }
-.active {
-  color: #64ffda;
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #C9920E;
+  border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(236, 28, 36);
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(236, 28, 36);
 }
