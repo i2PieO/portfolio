@@ -10,6 +10,7 @@ import {
 } from "react-icons/sl";
 import { MdOutlineClose } from "react-icons/md";
 import { motion } from "framer-motion";
+import Design from "./Design";
 
 const Navbar = () => {
   const ref = useRef<string | any>("");
@@ -38,7 +39,7 @@ const Navbar = () => {
     }
   }
   return (
-    <div className="w-full shadow-navbarShadow h-20 lg:h-[12vh] sticky top-0 z-50 bg-bodyColor px-4">
+    <div className="w-full shadow-navbarShadow h-20 lg:h-[12vh] top-0 z-50 bg-bodyColor px-4">
       <div className="max-w-container h-full mx-auto py-1 font-extraFont flex items-center justify-between ">
         {/* ============ Logo Start here ============ */}
         <Link href="/">
@@ -296,6 +297,7 @@ const Navbar = () => {
 
         {/* ============ ListItem End here ========== */}
       </div>
+      <Design />
     </div>
   );
 };
