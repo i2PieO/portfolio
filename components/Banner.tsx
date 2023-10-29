@@ -1,4 +1,6 @@
 import { motion } from "framer-motion";
+import { TypeAnimation } from "react-type-animation";
+
 const Banner = () => {
   return (
     <section
@@ -20,8 +22,19 @@ const Banner = () => {
         className="text-4xl lgl:text-6xl font-titleFont font-semibold flex flex-col"
       >
         Syed Khundmir Jawad.
-        <span className="text-textDark mt-2 lgl:mt-4">
-          I build things for the web.
+        <span className="text-textDark text-3xl mt-4 lgl:mt-4">
+          And i am a 
+        <TypeAnimation
+      sequence={[
+        ' Web Developer',
+        1000,
+        ' Mobile Developer',
+        1000
+      ]}
+      wrapper="span"
+      speed={9}
+      repeat={Infinity}
+    />
         </span>
       </motion.h1>
       <motion.p
