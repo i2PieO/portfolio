@@ -32,7 +32,7 @@ const Design = () => {
           interactivity: {
             events: {
               onClick: {
-                enable: true,
+                enable: false,
                 mode: "push",
               },
               onHover: {
@@ -43,7 +43,7 @@ const Design = () => {
             },
             modes: {
               push: {
-                quantity: 4,
+                quantity: 10,
               },
               repulse: {
                 distance: 200,
@@ -59,8 +59,8 @@ const Design = () => {
               color: "#ffffff",
               distance: 120,
               enable: true,
-              opacity: 0.5,
-              width: 1,
+              opacity: 1,
+              width: 3,
             },
             collisions: {
               enable: true,
@@ -83,10 +83,10 @@ const Design = () => {
               value: 90,
             },
             opacity: {
-              value: 0.5,
+              value: 1,
             },
             shape: {
-              type: "circle",
+              type: "circle", 
             },
             size: {
               value: { min: 1, max: 5 },
