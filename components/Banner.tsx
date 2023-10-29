@@ -26,9 +26,9 @@ const Banner = () => {
           And i am a 
         <TypeAnimation
       sequence={[
-        ' Web Developer',
+        ' Web Developer.',
         1000,
-        ' Mobile Developer',
+        ' Mobile Developer.',
         1000
       ]}
       wrapper="span"
