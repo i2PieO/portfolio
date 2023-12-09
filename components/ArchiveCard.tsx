@@ -17,7 +17,7 @@ const ArchiveCard = ({ title, des, listItem, link }: Props) => {
           <RxOpenInNewWindow className="text-2xl hover:text-textGreen" />
         </div>
         <div>
-          <h2 className="text-xl font-titleFont font-semibold tracking-wide group-hover:text-textGreen">
+          <h2 className="text-xl font-titleFont font-semibold tracking-wide group-hover:text-hoverColor">
             {title}
           </h2>
           <p className="text-sm mt-3">{des}</p>
