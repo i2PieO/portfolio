@@ -22,7 +22,7 @@ const Projects = () => {
                 src={discord}
                 alt="discord"
               />
-              <div className="absolute w-full h-full bg-textGreen/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
+              <div className="absolute w-full h-full bg-hoverColor/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
             </div>
           </a>
           <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right xl:-ml-16 z-10">
@@ -76,7 +76,7 @@ const Projects = () => {
                 src={spotify}
                 alt="spotify"
               />
-              <div className="absolute w-full h-full bg-textGreen/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
+              <div className="absolute w-full h-full bg-hoverColor/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
             </div>
           </a>
           <div className="w-full xl:w-1/2 flex flex-col gap-6 justify-between items-end text-right z-10">
@@ -130,7 +130,7 @@ const Projects = () => {
                 src={notion}
                 alt="notion"
               />
-              <div className="absolute w-full h-full bg-textGreen/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
+              <div className="absolute w-full h-full bg-hoverColor/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
             </div>
           </a>
           <div className="w-full xl:w-1/2 flex flex-col gap-6 justify-between items-end text-right xl:-ml-16 z-10">
