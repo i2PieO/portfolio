@@ -145,11 +145,11 @@ const Archive = () => {
               transition={{ delay: 0.7 }}
             >
               <ArchiveCard
-                title="Bazaar - A Modern Shopping app"
-                des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-            laudantium velit qui sint non, voluptates quo a veritatis."
-                listItem={["Reactjs", "Tailwind CSS", "vercel deploy"]}
-                link=""
+          title="Calculator"
+          des=" This is a basic calculator.
+          It allows to make basic calculations. for instance, addition, multiplication, etc."
+          listItem={["HTML", "Tailwind CSS", "JavaScript"]}
+          link="https://i2pieo.github.io/Calculator/"
               />
             </motion.div>
             <motion.div
@@ -158,11 +158,11 @@ const Archive = () => {
               transition={{ delay: 0.8 }}
             >
               <ArchiveCard
-                title="Blog101 Application"
-                des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-            laudantium velit qui sint non, voluptates quo a veritatis."
-                listItem={["Nextjs", "Tailwind CSS", "next-auth"]}
-                link=""
+          title="Tic Tac Toe"
+          des=" Built a Tic Tac Toe game which can be played in the browser. The player can play against a computer and has two
+          options on the difficulty of the computer Easy AI (easy) mode and Hard AI (hard) mode."
+          listItem={["HTML", "Neon CSS", "Javascript"]}
+          link="https://i2pieo.github.io/tictactoe/"
               />
             </motion.div>
             <motion.div

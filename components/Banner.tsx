@@ -43,7 +43,7 @@ const Banner = () => {
         transition={{ duration: 0.5, delay: 0.8 }}
         className="text-base md:max-w-[650px] text-textDark font-medium"
       >
-        I am a software engineer with a passion for creating things.{" "}
+        I am a software engineer with a passion specializing in building (and occasionally designing) exceptional websites, applications, and everything in between.{" "}
         <a href="https://www.dalointl.com/" target="_blank">
           {" "}
         </a>

@@ -14,7 +14,7 @@ const About = () => {
         <div className="w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4">
           <p>
             Hello! I&apos;m Jawad, a software developer based in Riyadh, Saudi
-            Arabiaa.
+            Arabia.
           </p>
           <p>
             I enjoy creating things that live on the internet. I develop
@@ -23,7 +23,7 @@ const About = () => {
           </p>
           <p>
             Though my major was Finance, I&apos;ve chased my dream and passion
-            about being a web developer. Here I am today!.
+            about being a web developer. Here I am today!
           </p>
 
           <p>Here are a few technologies I have been working with recently:</p>
