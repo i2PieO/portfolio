@@ -121,7 +121,7 @@ const Projects = () => {
         <div className="flex flex-col xl:flex-row gap-6">
           <a
             className="w-full xl:w-1/2 h-auto relative group"
-            href=""
+            href="https://github.com/i2PieO/cypress"
             target="_blank"
           >
             <div>
@@ -151,7 +151,7 @@ const Projects = () => {
             <div className="text-2xl flex gap-4">
               <a
                 className="hover:text-textGreen duration-300"
-                href=""
+                href="https://github.com/i2PieO/cypress"
                 target="_blank"
               >
                 <TbBrandGithub />
