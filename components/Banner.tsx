@@ -43,16 +43,9 @@ const Banner = () => {
         transition={{ duration: 0.5, delay: 0.8 }}
         className="text-base md:max-w-[650px] text-textDark font-medium"
       >
-        I am a web developer with 4+ years of experience in React. I have a
-        strong foundation in front-end & back-end development and am skilled in
-        creating user-friendly and responsive web applications using React and
-        its ecosystem.{" "}
+        I am a software engineer with a passion for creating things.{" "}
         <a href="https://www.dalointl.com/" target="_blank">
           {" "}
-          <span className="text-textGreen inline-flex relative cursor-pointer h-7 overflow-x-hidden group">
-            Learn more
-            <span className="absolute w-full h-[1px] bg-textGreen left-0 bottom-1 -translate-x-[110%] group-hover:translate-x-0 transition-transform duration-500"></span>
-          </span>
         </a>
       </motion.p>
       <a href="https://github.com/i2PieO" target="_blank">
@@ -62,7 +55,7 @@ const Banner = () => {
           transition={{ duration: 0.5, delay: 0.9 }}
           className="w-52 h-14 text-sm font-extraFont border border-textGreen rounded-md text-textGreen tracking-wide hover:bg-hoverColor duration-300"
         >
-          Check out my project!
+          Check out my projects!
         </motion.button>
       </a>
     </section>
