@@ -1,4 +1,4 @@
-import { discord, spotify, shop } from "@/public/assets";
+import { discord, spotify, notion } from "@/public/assets";
 import Image from "next/image";
 import { TbBrandGithub } from "react-icons/tb";
 import SectionTitle from "./SectionTitle";
@@ -88,7 +88,7 @@ const Projects = () => {
             </div>
             <p className="text-sm md:text-base bg-[#112240] p-2 md:p-6 rounded-md xl:-mr-16">
             This is a Full Stack  
-              <span className="text-textGreen"> Spotify Clone</span> with Next.js 13.4 App Router: React, Tailwind, Supabase, PostgreSQL, Stripe{" "}
+              <span className="text-textGreen"> Spotify Clone</span> with Next.js 13.4 App Router: React, Tailwind, Supabase, PostgreSQL, Stripe.{" "}
             </p>
             <ul className="text-xs md:text-sm font-extraFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
               <li>Nextjs 13</li>
@@ -127,8 +127,8 @@ const Projects = () => {
             <div>
               <Image
                 className="w-full h-full object-contain"
-                src={shop}
-                alt="shop"
+                src={notion}
+                alt="notion"
               />
               <div className="absolute w-full h-full bg-textGreen/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
             </div>
@@ -138,20 +138,15 @@ const Projects = () => {
               <p className="font-extraFont text-textGreen text-sm tracking-wide">
                 Featured Project
               </p>
-              <h3 className="text-2xl font-bold">Amazon Clone 2.0</h3>
+              <h3 className="text-2xl font-bold">Notion Clone</h3>
             </div>
             <p className="text-sm md:text-base bg-[#112240] p-2 md:p-6 rounded-md">
-              An Amazon clone website for visualizing personalized Amazon
-              website. View your products, Add your account with{" "}
-              <span className="text-textGreen">O-auth</span> and then make the
-              purchage using <span className="text-textGreen">stripe</span>.
+            A SaaS App with Realtime cursors, Nextjs 13, Stripe, Drizzle ORM, Tailwind, Supabase, Sockets.{" "}
             </p>
             <ul className="text-xs md:text-sm font-extraFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
-              <li>Nextjs</li>
-              <li>Typescript</li>
-              <li>Next-auth</li>
-              <li>Stripe</li>
-              <li>Vercel Deployment</li>
+              <li>Nextjs 13</li>
+              <li>Sockets</li>
+              <li>Tailwind</li>
             </ul>
             <div className="text-2xl flex gap-4">
               <a
