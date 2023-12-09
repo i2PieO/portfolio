@@ -1,4 +1,4 @@
-import { discord, cyberImg, shop } from "@/public/assets";
+import { discord, spotify, shop } from "@/public/assets";
 import Image from "next/image";
 import { TbBrandGithub } from "react-icons/tb";
 import SectionTitle from "./SectionTitle";
@@ -35,7 +35,7 @@ const Projects = () => {
             <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
             This is a Fullstack 
               {" "}
-              <span className="text-textGreen">Discord Clone.</span>
+              <span className="text-textGreen">Discord Clone</span> made with using Next.js 13, React, Socket.io, Prisma, Tailwind, MySQL.
             </p>
             <ul className="text-xs md:text-sm font-extraFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
               <li>Next.js 13</li>
@@ -67,14 +67,14 @@ const Projects = () => {
         <div className="flex flex-col xl:flex-row-reverse gap-6">
           <a
             className="w-full xl:w-1/2 h-auto relative group"
-            href=""
+            href="https://github.com/i2PieO/spotify"
             target="_blank"
           >
             <div>
               <Image
                 className="w-full h-full object-contain"
-                src={cyberImg}
-                alt="cyberImg"
+                src={spotify}
+                alt="spotify"
               />
               <div className="absolute w-full h-full bg-textGreen/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
             </div>
@@ -84,27 +84,24 @@ const Projects = () => {
               <p className="font-extraFont text-textGreen text-sm tracking-wide">
                 Featured Project
               </p>
-              <h3 className="text-2xl font-bold">Cyber Security Blog</h3>
+              <h3 className="text-2xl font-bold">Spotify Clone</h3>
             </div>
             <p className="text-sm md:text-base bg-[#112240] p-2 md:p-6 rounded-md xl:-mr-16">
-              A full functional Cyber Security Blog where you can view the
-              latest post and{" "}
-              <span className="text-textGreen">comments on</span> it by passing
-              your ideas besides you can try to add your own{" "}
-              <span className="text-textGreen">post</span> on it by logging on
-              the portal.
+            This is a Full Stack  
+              <span className="text-textGreen"> Spotify Clone</span> with Next.js 13.4 App Router: React, Tailwind, Supabase, PostgreSQL, Stripe{" "}
             </p>
             <ul className="text-xs md:text-sm font-extraFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
-              <li>Nextjs</li>
-              <li>Typescript</li>
-              <li>Next-auth</li>
-              <li>Sanity</li>
+              <li>Nextjs 13</li>
               <li>React Hook Form</li>
+              <li>Zustand</li>
+              <li>Radix UI</li>
+              <li>Typescript</li>
+              <li>Tailwind CSS</li>
             </ul>
             <div className="text-2xl flex gap-4">
               <a
                 className="hover:text-textGreen duration-300"
-                href=""
+                href="https://github.com/i2PieO/spotify"
                 target="_blank"
               >
                 <TbBrandGithub />
