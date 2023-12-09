@@ -171,11 +171,11 @@ const Archive = () => {
               transition={{ delay: 0.9 }}
             >
               <ArchiveCard
-                title="Todo application"
-                des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-            laudantium velit qui sint non, voluptates quo a veritatis."
-                listItem={["Reactjs", "Tailwind CSS", "vercel deploy"]}
-                link=""
+                title="Admin-Page"
+                des=" An admin dashboard design project to showcase my knowlegde of what I've learned about Grid.
+of what I've learned about Grid."
+                listItem={["HTML", "CSS"]}
+                link="https://i2pieo.github.io/Admin-Page/"
               />
             </motion.div>
           </>

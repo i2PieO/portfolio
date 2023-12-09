@@ -13,13 +13,13 @@ const About = () => {
       <div className="flex flex-col lgl:flex-row gap-16">
         <div className="w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4">
           <p>
-          Hello! I'm Jawad, a software developer based in Riyadh, Saudi Arabia.
+          Hello! I'm Jawad, a software developer based in Riyadh, Saudi Arabiaa.
           </p>
           <p>
           I enjoy creating things that live on the internet. I develop exceptional websites and web apps that provide intuitive, pixel-perfect user interfaces with efficient and modern backends.{" "}
           </p>
           <p>
-          Though my major was Finance, I've chased my dream and passion about being a web developer. Here I am today!
+          Though my major was Finance, I've chased my dream and passion about being a web developer. Here I am today!.
           </p>
           <p>Here are a few technologies I have been working with recently:</p>
           <ul className="max-w-[450px] text-sm font-extraFont grid grid-cols-2 gap-2 mt-6">
