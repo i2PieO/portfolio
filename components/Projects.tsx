@@ -32,7 +32,7 @@ const Projects = () => {
               </p>
               <h3 className="text-2xl font-bold">Discord Clone</h3>
             </div>
-            <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
+            <p className="bg-[#07468a] text-sm md:text-base p-2 md:p-6 rounded-md">
             This is a Fullstack 
               {" "}
               <span className="text-textGreen">Discord Clone</span> made with using Next.js 13, React, Socket.io, Prisma, Tailwind, MySQL.
@@ -86,7 +86,7 @@ const Projects = () => {
               </p>
               <h3 className="text-2xl font-bold">Spotify Clone</h3>
             </div>
-            <p className="text-sm md:text-base bg-[#112240] p-2 md:p-6 rounded-md xl:-mr-16">
+            <p className="text-sm md:text-base bg-[#07468a] p-2 md:p-6 rounded-md xl:-mr-16">
             This is a Full Stack  
               <span className="text-textGreen"> Spotify Clone</span> with Next.js 13.4 App Router: React, Tailwind, Supabase, PostgreSQL, Stripe.{" "}
             </p>
@@ -140,7 +140,7 @@ const Projects = () => {
               </p>
               <h3 className="text-2xl font-bold">Notion Clone</h3>
             </div>
-            <p className="text-sm md:text-base bg-[#112240] p-2 md:p-6 rounded-md">
+            <p className="text-sm md:text-base bg-[#07468a] p-2 md:p-6 rounded-md">
             A SaaS App with Realtime cursors, Nextjs 13, Stripe, Drizzle ORM, Tailwind, Supabase, Sockets.{" "}
             </p>
             <ul className="text-xs md:text-sm font-extraFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
