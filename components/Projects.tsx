@@ -1,4 +1,4 @@
-import { amazonImg, cyberImg, shop } from "@/public/assets";
+import { discord, cyberImg, shop } from "@/public/assets";
 import Image from "next/image";
 import { TbBrandGithub } from "react-icons/tb";
 import SectionTitle from "./SectionTitle";
@@ -13,14 +13,14 @@ const Projects = () => {
         <div className="flex flex-col xl:flex-row gap-6">
           <a
             className="w-full xl:w-1/2 h-auto relative group"
-            href="https://github.com/i2PieO/Spinning-Cube"
+            href="https://github.com/i2PieO/discord-clone"
             target="_blank"
           >
             <div>
               <Image
                 className="w-full h-full object-contain"
-                src={amazonImg}
-                alt="amazonImg"
+                src={discord}
+                alt="discord"
               />
               <div className="absolute w-full h-full bg-textGreen/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
             </div>
@@ -30,17 +30,19 @@ const Projects = () => {
               <p className="font-extraFont text-textGreen text-sm tracking-wide">
                 Featured Project
               </p>
-              <h3 className="text-2xl font-bold">Spinning Cube</h3>
+              <h3 className="text-2xl font-bold">Discord Clone</h3>
             </div>
             <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
-              This is a C language code to visualize a
+            This is a Fullstack 
               {" "}
-              <span className="text-textGreen">spinning cube.</span>
+              <span className="text-textGreen">Discord Clone.</span>
             </p>
             <ul className="text-xs md:text-sm font-extraFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
-              <li>C</li>
-              <li>ASCII characters</li>
-              <li>Matrix</li>
+              <li>Next.js 13</li>
+              <li>React Hook Form</li>
+              <li>Zustand</li>
+              <li>Shadcn</li>
+              <li>Typescript</li>
             </ul>
             <div className="text-2xl flex gap-4">
               <a
